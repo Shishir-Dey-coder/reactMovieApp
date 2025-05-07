@@ -1,0 +1,39 @@
+.search-bar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background: #4a148c;
+    border: none;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background: #7b1fa2;
+  }
+  
+  .search-bar button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar {
+      max-width: 100%;
+    }
+  }
